@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+
+</head>
+<body>
+
+<header>
+  <div class="snap-menu-flexed">
+   <div><img src="images/logo.svg" alt="Snap Logo"> </div>
+   <div><img src="images\icon-menu.svg" alt="Menu" class="hamburger" id="hamburger"></div>
+  </div>
+
+  <div class="menu">
+    <img src="images/icon-close-menu.svg" alt="Close Menu" class="close-menu" id="close-menu">
+  <ul class="flex-list">
+   <li class="dropdown">
+    <div class="dropdown-toggle" id="features-toggle">Features<img src="images/icon-arrow-down.svg" alt="Down Arrow"></div>
+    <ul class="dropdown-menu" id="features-menu">
+
+      <li>
+        <img src="images/icon-todo.svg" alt="Todo">Todo List
+      </li>
+      <li>
+        <img src="images/icon-calendar.svg" alt="Calender">Calender
+      </li>
+      <li>
+        <img src="images/icon-reminders.svg" alt="Reminders">Reminders
+      </li>
+      <li>
+        <img src="images/icon-planning.svg" alt="Planning">Planning
+      </li>
+      
+    </ul>
+  </li>
+  <li class="dropdown">
+    <div class="dropdown-toggle" id="company-toggle">Company<img src="images/icon-arrow-down.svg" alt="Down Arrow"></div>
+    <ul class="dropdown-menu" id="company-menu">
+      <li>History</li>
+      <li>Our Team</li>
+      <li>Blog</li>
+    </ul>
+  </li>
+   <li class="pointer">Careers</li>
+   <li class="pointer">About</li>
+  </ul>
+ 
+  <ul class="flex-list login">
+   <li class="pointer">Login</li>
+   <li class="pointer border-line">Register</li>
+  </ul>
+  </div>
+
+</header>
+
+<main>
+  <div class="note container">
+  <div class="note-header">
+   <h1>Make remote work</h1>
+ 
+   <p>Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.</p>
+   <button>Learn more</button> 
+  </div>
+   <div class="footer-logos">
+    <div><img src="images/client-databiz.svg" alt="Databiz Logo"></div>
+    <div><img src="images/client-audiophile.svg" alt="Audiophile Logo"></div>
+    <div><img src="images/client-meet.svg" alt="Meet Logo"></div>
+    <div><img src="images/client-maker.svg" alt="Maker Logo"></div>
+   
+   </div>
+  </div>
+
+  <div class="image container">
+    <img src="images/image-hero-desktop.png" alt="Hero Image" class="desktop-hero-img">
+    <img src="images/image-hero-mobile.png" alt="Hero Image" class="mobile-hero-img">
+  </div>
+  
+</main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+  <div class="overlay" id="overlay"></div> <!-- Dark Background Overlay -->
+  <script src="script.js"></script>
+</body>
+</html>
